@@ -3,19 +3,20 @@
 # Here you will find all the instructions for the assignment before you.
 # Be focused and try to cover as many tasks as you can.
 # There is no points for the different tasks however some of them are MUST tasks (communication client to server is must).
-# Bouns: 1 of the listed tasks is bad practice inform the interviewers which 1 is it and explain why. 
+# Bonus: 1 of the listed tasks is bad practice inform the interviewers which 1 is it and explain why. 
 # Good Luck!
 
 
 Backend: 
     1.1. Create a Web API that will serve data to the front. (choose you software language). 
-    1.2. Create list of users (that will be displyed in the client side)
-    1.3. Create 2 methods GET and POST, GET for fetching all users and POST for specefic users via text input from the client side.
+	1.1.2 The data will be an list of objects in form of [{fullName: string; workTitle: string; imageUrl: string},...]
+    1.2. Create list of users (that will be displayed in the client side)
+    1.3. Create 2 methods GET and POST, GET for fetching all users and POST for specific users via text input from the client side.
 
 Frontend:
-    1.1. Setup the client side (install all the relevant packges).
-    1.2. Fix the bugs that apperas in front of you when the page start.
-    1.3. Create the functionallty for the autocomplete operation, add your code in the relevant places.
+    1.1. Setup the client side (install all the relevant packages).
+    1.2. Fix the bugs that appears in front of you when the page start.
+    1.3. Create the functionality for the autocomplete operation, add your code in the relevant places.
     1.4. The client should be able to display all users on page.
     1.5. The client should be able to filter users using there fullname or worktitle.
 
